@@ -1,0 +1,33 @@
+global:
+  imagePullPolicy: IfNotPresent
+
+replicaCount: 1
+
+deploymentStrategy:
+  type: RollingUpdate
+
+deploymentType: deployment
+
+image:
+  registry: docker.io
+  repository: coranlabs
+  name: hexa-upf
+  pullPolicy: IfNotPresent
+
+fullnameOverride: "hexa-upf"
+
+hostNetwork: false
+
+serviceAccount:
+  create: true
+
+service:
+  type: ClusterIP
+  port: 80
+
+resources: {}
+
+nodeSelector: {}
+tolerations: []
+affinity: {}
+
