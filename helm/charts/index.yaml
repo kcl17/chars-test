@@ -1,0 +1,13 @@
+apiVersion: v1
+entries:
+  hexa-upf:
+  - apiVersion: v1
+    appVersion: 1.0.0
+    created: "2024-06-25T18:11:47.290420608+05:30"
+    description: Chart to deploy Hexa-upf
+    digest: 93a58e46402cf8e7f4e2cc07764672a670a54410da943992a4d4a8abafca8f4a
+    name: hexa-upf
+    urls:
+    - hexa-upf-1.0.0.tgz
+    version: 1.0.0
+generated: "2024-06-25T18:11:47.289852929+05:30"
